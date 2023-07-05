@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo">
+                <img src="./images/GREENMIND.png" alt="">
+            </div>
+            <div class="navigtion">
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Products</a>
+                    <a href="">Contacts</a>
+                </nav>
+            </div>
+            <div class="icons">
+                <img src="./images/Cart.png" alt="">
+                <img src="./images/Person.png" alt="">
+                <img src="./images/Line 1.png" alt="">
+                <img src="./images/FilterRight.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="dream-plants">
+            <div class="left">
+                <h1>Buy your dream plants</h1>
+                <div class="left_info"> 
+                <div class="species"> 
+                 <h3>50+</h3>
+                 <h3>Plant Species</h3>
+                </div>
+                <div class="line"></div>
+                 <div class="customer"> 
+                 <h3>100+</h3>
+                 <h3>Customers</h3>
+                </div> 
+                </div>
+                <div class="search">
+                    <input class="inputt" type="text" placeholder="What are you looking for?">
+                    <img src="./images/Search.png" alt="">
+                </div>
+            </div>
+            <div class="right">
+                <div class="plant">
+                    <img src="./images/unsplash_cLaaxa4DSnc-removebg-preview 1.png" alt="">
+                </div>
+                
+                <img class="center" src="./images/Vector 186.png" alt="">
+                <!-- <img src="./images/Rectangle 2.png" alt=""> -->
+                <img class="top" src="./images/Vector 187.png" alt="">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="info">
+                <h2>Best Selling Plants</h2>
+                <p>Easiest way to healthy life by buying your favorite plants</p>
+                <button>See more<img src="./images/ArrowRight.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img src="./images/Frame 9.png" alt="">
+                <h5>Natural Plants</h5>
+                <p>₱ 1,400.00</p>
+            </div>
+            <div class="card">
+                <img src="./images/Frame 8.png" alt="">
+                <h5>Artificial Plants</h5>
+                <p>₱ 900.00</p>
+            </div>
+            <div class="card">
+                <img src="./images/Frame 7.png" alt="">
+                <h5>Artificial Plants</h5>
+                <p>₱ 3,500.00</p>
+            </div>
+        </div>
+        <div class="about_us">
+            <div class="about_logo">
+                <h2>About us</h2>
+                <p>Order now and appreciate the beauty of nature</p>
+            </div>
+          <div class="blocks"> 
+            <div class="about_block">
+                <img src="./images/Group 1.png" alt="">
+                <h3>Large Assortment</h3>
+                <p>we offer many different types of products with fewer variations in each category.</p>
+            </div>
+            <div class="about_block">
+                <img src="./images/group 2.png" alt="">
+                <h3>Fast & Free Shipping</h3>
+                <p>4-day or less delivery time, free shipping and an expedited delivery option.</p>
+            </div>
+            <div class="about_block3">
+                <div class="bacground_icon">
+                    <img src="./images/TelephoneOutbound.png" alt="">
+                </div>
+                <h3>24/7 Support</h3>
+                <p>answers to any business related inquiry 24/7 and in real-time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="logo_categories">
+            <h2>Categories</h2>
+            <p>Find what you are looking for</p>
+        </div>
+        <div class="categories">
+            <div class="cards_categories">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/Frame 36.png" alt="">
+                        <h3>Natural Plants</h3>
+                    </div>
+                    <div class="card">
+                        <img src="./images/Frame 38.png" alt="">
+                        <h3>Plant Accessories</h3>
+                        <p>Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button>Explore<img src="./images/ArrowRight (1).png" alt=""></button>
+                    </div>
+                    <div class="card">
+                        <img src="./images/Frame 37.png" alt="">
+                        <h3>Artificial Plants</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 5000,
+            },
+            slidesPerView: 2,
+            spaceBetween: 100,
+            freeMode: true,
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            });
+    </script>
+</body>
+</html>

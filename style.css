@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Poppins:ital,wght@0,400;0,800;1,300;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  max-width: 1440px;
+}
+header .header-wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 44px;
+}
+header .header-wrapper nav {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+header .header-wrapper nav a {
+  text-decoration: none;
+  color: rgba(30, 30, 30, 0.5019607843);
+}
+header .header-wrapper .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+main .dream-plants {
+  margin: 0 auto;
+  width: 1248px;
+  background: #c1dcdc;
+  padding: 48px 48px;
+  margin-top: 71px;
+  border: none;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+main .dream-plants .left {
+  width: 512px;
+}
+main .dream-plants .left h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+main .dream-plants .left .left_info {
+  width: 318px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+main .dream-plants .left .left_info .species {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .dream-plants .left .left_info .line {
+  border: 1px solid #000;
+}
+main .dream-plants .left .left_info .customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .dream-plants .left .search {
+  width: 449px;
+  position: relative;
+}
+main .dream-plants .left .search input {
+  margin-top: 48px;
+  width: 100%;
+  padding: 18px;
+  width: 450px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+}
+main .dream-plants .left .search img {
+  margin: 5px;
+  position: absolute;
+  top: 50px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #c1dcdc;
+  right: 0;
+}
+main .dream-plants .right .plant {
+  position: relative;
+  width: 450px;
+  height: 400px;
+  background: #000;
+  border-radius: 200px 200px 0 200px;
+}
+main .dream-plants .right .plant img {
+  position: absolute;
+  top: -135px;
+  right: 0;
+  width: 400px;
+}
+main .dream-plants .right .center {
+  position: absolute;
+  bottom: 30%;
+  left: 45%;
+}
+main .dream-plants .right .top {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 70px;
+}
+main .cards {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 74px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+main .cards .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .cards .info h2 {
+  width: 200px;
+  font-size: 32px;
+  font-weight: 700;
+}
+main .cards .info p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 0.5019607843);
+}
+main .cards .info button {
+  position: relative;
+  width: 150px;
+  padding: 12px 24px 12px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  background: #c1dcdc;
+  color: #000;
+}
+main .cards .info button img {
+  padding: 0 14px;
+  position: absolute;
+  top: 13px;
+  right: 0;
+}
+main .cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: all 0.3s ease-in-out;
+}
+main .cards .card h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+main .cards .card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 0.5019607843);
+}
+main .cards .card:hover {
+  border: 1px solid #777;
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+main .about_us {
+  margin: 0 auto;
+  margin-top: 112px;
+}
+main .about_us .about_logo {
+  padding: 0 409px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+main .about_us .about_logo h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+main .about_us .about_logo p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 0.5019607843);
+  margin: 0 auto;
+}
+main .about_us .blocks {
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+main .about_us .blocks .about_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+main .about_us .blocks .about_block img {
+  width: 96px;
+}
+main .about_us .blocks .about_block h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+main .about_us .blocks .about_block p {
+  font-weight: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 0.5019607843);
+  width: 400px;
+  text-align: center;
+}
+main .about_us .blocks .about_block3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .about_us .blocks .about_block3 .bacground_icon {
+  width: 96px;
+  background: #c1dcdc;
+  border: none;
+  padding: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+main .about_us .blocks .about_block3 h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+main .about_us .blocks .about_block3 p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 0.5019607843);
+  width: 400px;
+  text-align: center;
+}
+main .logo_categories {
+  padding: 0 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+main .logo_categories h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+main .logo_categories p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 0.5019607843);
+  margin: 0 auto;
+}
+main .categories {
+  padding: 0 100px;
+  margin: 0 auto;
+  width: 100%;
+  background: #c1dcdc;
+  margin-top: 165px;
+}
+main .categories .cards_categories .card-wrapper {
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+.swiper img {
+  width: 400px;
+}
+.swiper-wrapper .swiper-slide {
+  background: #000;
+}/*# sourceMappingURL=style.css.map */
